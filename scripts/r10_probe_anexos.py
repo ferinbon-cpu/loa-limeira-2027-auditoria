@@ -39,11 +39,21 @@ def valid_url(url):
             and q.get("Id") in [[i] for i in IDS] and not u.fragment
             and not u.username and not u.password)
 
+def valid_final_url(url):
+    """Same-origin public redirect is permitted; final content is still inspected."""
+    u = urlparse(url)
+    return (u.scheme == "https" and u.hostname == HOST and u.port is None
+            and not u.username and not u.password)
+
 def magic(b):
     if b.startswith(b"%PDF-"):
         return "PDF"
     if b.startswith((b"PK\x03\x04", b"PK\x05\x06", b"PK\x07\x08")):
         return "ZIP_OOXML_POSSIVEL"
+    if b.startswith(b"\xff\xd8\xff"):
+        return "JPEG"
+    if b.startswith(b"\x89PNG\r\n\x1a\n"):
+        return "PNG"
     if b.lstrip().lower().startswith((b"<!doctype html", b"<html")):
         return "HTML_NAO_DOCUMENTO"
     return "NAO_IDENTIFICADO"
@@ -59,7 +69,7 @@ def probe(identifier, opener=None):
         "Accept": "application/pdf,application/octet-stream,application/vnd.openxmlformats-officedocument.wordprocessingml.document,*/*;q=0.2"}, method="GET")
     try:
         with opener.open(req, timeout=TIMEOUT) as response:
-            if not valid_url(response.geturl()):
+            if not valid_final_url(response.geturl()):
                 raise ValueError("URL_FINAL_NAO_PERMITIDA")
             row["http"] = int(response.getcode())
             row["content_type"] = response.headers.get("Content-Type", "").split(";", 1)[0].strip().lower()[:85]
@@ -86,7 +96,7 @@ def probe(identifier, opener=None):
                 row["resultado"] = "MAIOR_QUE_LIMITE"
             elif row["assinatura"] == "HTML_NAO_DOCUMENTO":
                 row["resultado"] = "HTML_NAO_ARQUIVO"
-            elif row["assinatura"] in ("PDF", "ZIP_OOXML_POSSIVEL") and complete:
+            elif row["assinatura"] in ("PDF", "ZIP_OOXML_POSSIVEL", "JPEG", "PNG") and complete:
                 row["resultado"] = "ARQUIVO_PUBLICO_ACESSIVEL"
                 row["sha256_completo"] = h.hexdigest()
             else:
@@ -107,11 +117,12 @@ def probe(identifier, opener=None):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--outdir", default="r10_output")
+    parser.add_argument("--ids", nargs="+", choices=IDS, default=list(IDS))
     args = parser.parse_args()
     out = Path(args.outdir)
     out.mkdir(parents=True, exist_ok=True)
     rows = []
-    for n, identifier in enumerate(IDS):
+    for n, identifier in enumerate(args.ids):
         if n:
             time.sleep(2)
         row = probe(identifier)
@@ -119,7 +130,7 @@ def main():
         print(identifier, row["resultado"], "HTTP", row["http"],
               "assinatura", row["assinatura"])
         if row["http"] == 429:
-            rows += [{"id": i, "resultado": "NAO_TENTADO_APOS_HTTP_429"} for i in IDS[n+1:]]
+            rows += [{"id": i, "resultado": "NAO_TENTADO_APOS_HTTP_429"} for i in args.ids[n+1:]]
             break
     data = {"data_utc": datetime.now(timezone.utc).isoformat(),
             "tipo": "R10_TRES_LINKS_PUBLICOS_SEM_RETENCAO_DE_BYTES",
