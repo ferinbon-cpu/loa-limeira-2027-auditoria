@@ -1,0 +1,56 @@
+name: R10 - Verificar acesso de tres anexos publicos
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/r10-acesso-anexos.yml"
+      - "scripts/r10_probe_anexos.py"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: loa-limeira-2027-r10-verificacao
+  cancel-in-progress: false
+jobs:
+  probe:
+    name: Verificar 602182, 602184 e 602298 (somente diagnostico)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - name: Checkout sem credenciais persistidas
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - name: Checagens de seguranca offline
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import sys
+          sys.path.insert(0, "scripts")
+          from r10_probe_anexos import official_url, valid_url, magic, IDS
+          assert len(IDS)==3 and len(set(IDS))==3
+          assert all(valid_url(official_url(i)) for i in IDS)
+          assert not valid_url("https://evil.example/arquivo?Id=602182")
+          assert not valid_url("https://consulta.limeira.sp.leg.br/arquivo?Id=602183")
+          assert magic(b"%PDF-1.5")=="PDF"
+          assert magic(b"<!DOCTYPE html><html>")=="HTML_NAO_DOCUMENTO"
+          print("R10 OFFLINE SAFETY PASS")
+          PY
+      - name: Consultar tres URLs oficiais sem salvar os bytes
+        run: python3 scripts/r10_probe_anexos.py --outdir r10_output
+      - name: Resumo de acesso
+        if: always()
+        shell: bash
+        run: |
+          if test -f r10_output/STATUS.md; then cat r10_output/STATUS.md >> "$GITHUB_STEP_SUMMARY"; fi
+      - name: Publicar exclusivamente metadados
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: r10-status-acesso-publico
+          path: r10_output/
+          if-no-files-found: warn
+          retention-days: 14
