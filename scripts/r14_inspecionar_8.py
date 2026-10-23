@@ -6,6 +6,8 @@ import re
 import time
 import hashlib
 import zipfile
+import subprocess
+import shutil
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import urlparse
@@ -14,10 +16,8 @@ from urllib.error import HTTPError
 
 HOST = "consulta.limeira.sp.leg.br"
 CAP = 6 * 1024 * 1024
-ANEXOS = ((346,603330,"APAE"),(347,603332,"ARIL"),(348,603340,"CAMPL"),
-          (349,603346,"FT RAMATIS"),(350,603352,"SANTA CASA"),
-          (351,603361,"EMEC"),(352,603363,"PLAYGROUNDS"),
-          (353,603365,"MISS E MISTER"))
+# Apenas as duas emendas educacionais; as outras seis ja foram triadas na R14.
+ANEXOS = ((351,603361,"EMEC"),(352,603363,"PLAYGROUNDS"))
 CURRENCY = re.compile(r"(?<![\d.])(?:R\$\s*)?(?:\d{1,3}(?:\.\d{3})+|\d+),\d{2}(?!\d)")
 ACTION = re.compile(r"(?<!\d)\d{2}\.\d{3}\.\d{4}\.\d{4}(?!\d)")
 TEXT_TAG = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}t"
@@ -37,8 +37,25 @@ def analyze(number, file_id, category):
     if len(payload)>CAP:
         entry["situacao"]="EXCEDE_CAP"
         return entry
+    if payload.startswith(b"%PDF"):
+        entry["formato_recebido"]="PDF"
+        if not shutil.which("pdftotext"):
+            entry["situacao"]="PDF_SEM_CONVERSOR"
+            return entry
+        run=subprocess.run(["pdftotext","-layout","-","-"],input=payload,
+                           stdout=subprocess.PIPE,stderr=subprocess.PIPE,
+                           timeout=25,check=False)
+        if run.returncode:
+            entry["situacao"]="PDF_SEM_TEXTO_EXTRAIVEL"
+            return entry
+        content=run.stdout.decode("utf-8","replace")
+        entry["situacao"]="PDF_TEXTO_LIDO"
+        entry["montantes_observados"]=sorted({s.replace("R$","").replace(" ","") for s in CURRENCY.findall(content)})[:30]
+        entry["codigos_observados"]=sorted(set(ACTION.findall(content)))[:20]
+        return entry
     if not payload.startswith(bytes([80,75,3,4])):
-        entry["situacao"]="RESPOSTA_NAO_DOCX"
+        entry["situacao"]="HTML_NAO_ARQUIVO" if b"<html" in payload[:1000].lower() else "ASSINATURA_OUTRA"
+        entry["magic_hex"]=payload[:8].hex()
         return entry
     with zipfile.ZipFile(io.BytesIO(payload)) as archive:
         if "word/document.xml" not in archive.namelist():
