@@ -1,0 +1,85 @@
+name: R12 - Triagem conservadora de 335 IDs publicos
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/r12-triagem-335.yml"
+      - "scripts/r12_triar_335.py"
+      - "data/r12/ids_335_publicos.txt"
+  schedule:
+    - cron: "23 3,9,15,21 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: loa-limeira-2027-r12-triagem-335
+  cancel-in-progress: false
+jobs:
+  triagem:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout com credencial de escrita temporaria
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: true
+      - name: Verificar regras sem rede
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import sys
+          sys.path.insert(0,"scripts")
+          from r12_triar_335 import ids,classify,HOST,CAP,MAX_PER_RUN
+          x=ids()
+          assert len(x)==335 and len(set(x))==335
+          assert "602298" not in x
+          assert HOST=="consulta.limeira.sp.leg.br"
+          assert CAP==8192 and MAX_PER_RUN==15
+          assert classify(b"%PDF-1.4")=="PDF_ASSINATURA"
+          assert classify(b"<!doctype html><html>")=="HTML_NAO_ARQUIVO"
+          print("R12_SAFETY_GATE_PASS")
+          PY
+      - name: Analisar no maximo 15 links em 8KiB por ID
+        run: python3 scripts/r12_triar_335.py --limit 15
+      - name: Resumo de estado
+        if: always()
+        shell: bash
+        run: |
+          test ! -f data/r12/STATUS.md || cat data/r12/STATUS.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Salvar apenas estado e metadados no GitHub
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/r12/estado.json data/r12/status_335.csv data/r12/STATUS.md data/r12/ULTIMA_RODADA.json
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteracao no estado R12."
+            exit 0
+          fi
+          git commit -m "data: triagem publica incremental R12 [skip ci]"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              echo "R12 salvo em main na tentativa $attempt"
+              exit 0
+            fi
+            echo "Push R12 falhou temporariamente ($attempt/3)"
+            sleep 5
+          done
+          echo "Falha ao persistir R12; os artefatos desta execução continuam disponíveis." >&2
+          exit 1
+      - name: Artefatos de metadados sem documentos
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: r12-status-335
+          path: |
+            data/r12/status_335.csv
+            data/r12/estado.json
+            data/r12/STATUS.md
+            data/r12/ULTIMA_RODADA.json
+          if-no-files-found: warn
+          retention-days: 14
