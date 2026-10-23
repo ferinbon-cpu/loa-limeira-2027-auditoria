@@ -1,0 +1,86 @@
+{
+  "corte_utc": "2026-10-23T16:39:06+00:00",
+  "consultados": 15,
+  "estados": {
+    "ARQUIVO_ASSINATURA": 1,
+    "HTML_NAO_ARQUIVO": 14,
+    "PENDENTE": 320
+  },
+  "resultados": [
+    {
+      "id": "601667",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "601783",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "http": 200
+    },
+    {
+      "id": "601784",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "http": 200
+    },
+    {
+      "id": "601786",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "http": 200
+    },
+    {
+      "id": "601790",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "http": 200
+    },
+    {
+      "id": "601799",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "http": 200
+    },
+    {
+      "id": "601800",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "http": 200
+    },
+    {
+      "id": "601802",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "http": 200
+    },
+    {
+      "id": "601805",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "http": 200
+    },
+    {
+      "id": "601807",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "http": 200
+    },
+    {
+      "id": "601808",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "http": 200
+    },
+    {
+      "id": "601810",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "http": 200
+    },
+    {
+      "id": "601812",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "http": 200
+    },
+    {
+      "id": "601813",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "http": 200
+    },
+    {
+      "id": "601972",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "http": 200
+    }
+  ]
+}

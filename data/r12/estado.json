@@ -1,0 +1,1453 @@
+{
+  "atualizado_utc": "2026-10-23T16:39:06+00:00",
+  "criado_utc": "2026-10-23T16:38:00+00:00",
+  "ids": {
+    "601667": {
+      "assinatura": "PDF_ASSINATURA",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "application/pdf",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-23T16:38:02+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=601667"
+    },
+    "601783": {
+      "assinatura": "HTML_NAO_ARQUIVO",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "text/html",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-23T16:38:05+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=601783"
+    },
+    "601784": {
+      "assinatura": "HTML_NAO_ARQUIVO",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "text/html",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-23T16:38:09+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=601784"
+    },
+    "601786": {
+      "assinatura": "HTML_NAO_ARQUIVO",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "text/html",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-23T16:38:13+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=601786"
+    },
+    "601790": {
+      "assinatura": "HTML_NAO_ARQUIVO",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "text/html",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-23T16:38:17+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=601790"
+    },
+    "601799": {
+      "assinatura": "HTML_NAO_ARQUIVO",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "text/html",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-23T16:38:21+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=601799"
+    },
+    "601800": {
+      "assinatura": "HTML_NAO_ARQUIVO",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "text/html",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-23T16:38:25+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=601800"
+    },
+    "601802": {
+      "assinatura": "HTML_NAO_ARQUIVO",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "text/html",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-23T16:38:29+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=601802"
+    },
+    "601805": {
+      "assinatura": "HTML_NAO_ARQUIVO",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "text/html",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-23T16:38:33+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=601805"
+    },
+    "601807": {
+      "assinatura": "HTML_NAO_ARQUIVO",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "text/html",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-23T16:38:36+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=601807"
+    },
+    "601808": {
+      "assinatura": "HTML_NAO_ARQUIVO",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "text/html",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-23T16:38:40+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=601808"
+    },
+    "601810": {
+      "assinatura": "HTML_NAO_ARQUIVO",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "text/html",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-23T16:38:44+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=601810"
+    },
+    "601812": {
+      "assinatura": "HTML_NAO_ARQUIVO",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "text/html",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-23T16:38:49+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=601812"
+    },
+    "601813": {
+      "assinatura": "HTML_NAO_ARQUIVO",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "text/html",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-23T16:38:56+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=601813"
+    },
+    "601972": {
+      "assinatura": "HTML_NAO_ARQUIVO",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "text/html",
+      "situacao": "HTML_NAO_ARQUIVO",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-23T16:39:06+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=601972"
+    },
+    "601973": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "601975": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "601977": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "601998": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602021": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602047": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602049": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602050": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602052": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602054": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602059": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602061": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602063": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602064": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602065": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602067": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602077": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602078": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602079": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602081": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602084": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602092": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602093": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602094": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602095": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602127": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602128": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602134": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602135": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602137": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602139": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602143": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602144": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602174": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602175": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602178": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602181": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602182": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602184": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602206": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602207": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602208": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602209": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602211": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602214": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602215": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602217": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602218": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602219": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602221": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602223": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602224": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602225": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602230": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602234": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602236": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602238": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602241": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602242": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602250": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602251": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602252": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602253": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602254": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602255": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602268": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602270": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602276": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602277": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602279": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602293": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602294": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602296": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602302": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602303": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602305": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602308": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602309": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602310": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602311": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602313": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602314": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602315": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602316": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602324": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602325": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602326": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602356": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602357": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602359": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602362": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602363": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602364": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602365": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602366": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602367": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602368": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602369": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602371": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602373": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602374": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602375": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602376": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602377": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602378": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602379": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602382": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602384": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602388": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602389": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602391": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602393": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602394": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602395": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602396": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602397": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602398": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602400": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602402": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602405": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602406": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602407": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602408": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602409": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602418": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602419": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602420": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602421": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602422": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602424": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602428": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602436": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602440": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602441": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602445": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602464": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602465": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602467": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602469": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602470": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602506": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602524": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602544": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602548": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602549": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602552": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602558": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602561": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602566": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602570": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602571": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602572": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602580": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602581": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602582": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602586": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602587": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602588": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602603": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602604": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602607": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602636": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602637": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602639": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602641": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602642": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602647": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602651": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602654": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602655": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602656": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602657": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602658": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602669": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602671": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602672": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602673": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602674": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602675": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602688": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602699": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602700": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602743": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602744": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602745": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602746": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602747": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602749": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602750": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602751": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602767": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602770": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602773": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602775": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602777": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602782": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602785": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602788": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602790": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602793": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602795": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602808": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602809": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602810": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602811": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602814": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602820": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602821": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602827": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602834": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602835": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602836": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602837": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602840": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602841": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602847": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602848": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602850": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602854": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602857": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602858": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602859": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602887": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602888": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602889": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602891": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602893": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602894": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602910": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602911": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602913": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602915": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602916": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602917": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602918": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602919": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602920": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602922": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602924": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602925": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602926": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602927": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602930": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602931": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602934": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602936": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602937": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602953": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602964": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602965": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602967": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602969": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602970": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602986": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602994": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602995": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602997": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "602999": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603000": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603015": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603016": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603020": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603022": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603023": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603026": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603027": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603029": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603032": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603038": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603039": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603040": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603042": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603044": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603045": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603056": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603057": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603058": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603059": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603060": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603061": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603062": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603064": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603068": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603069": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603070": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603071": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603072": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603073": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603074": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603075": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603076": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603077": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603079": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603081": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603082": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603083": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603084": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603085": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603086": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603087": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603089": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603093": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603094": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603095": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603104": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603105": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603106": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603108": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603110": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603111": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603112": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603113": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603115": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603117": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603118": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603119": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603120": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603122": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603126": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    },
+    "603164": {
+      "situacao": "PENDENTE",
+      "tentativas": 0
+    }
+  },
+  "pausa_ate_utc": "",
+  "schema": 1
+}
