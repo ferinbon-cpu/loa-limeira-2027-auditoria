@@ -1,0 +1,33 @@
+name: R14 - leitura monetaria 8 emendas Mariana Calsa
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/r14_inspecionar_8.py"
+      - ".github/workflows/r14-valores-346-353.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ler-valores:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - name: Extrair somente montantes e codigos de oito DOCX publicos
+        run: python3 scripts/r14_inspecionar_8.py
+      - name: Resumo restrito sem texto integral
+        if: always()
+        shell: bash
+        run: |
+          if test -f data/r14/triagem_valores.json; then
+            cat data/r14/triagem_valores.json >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Preservar apenas metadados temporarios
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: r14-valores-sem-originais
+          path: data/r14/triagem_valores.json
+          if-no-files-found: warn
+          retention-days: 7
