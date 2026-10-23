@@ -1,0 +1,52 @@
+name: Camara Limeira - piloto de anexos
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: loa-limeira2027-piloto-metadados
+  cancel-in-progress: false
+
+jobs:
+  cinco-paginas:
+    name: Cinco paginas publicas - apenas metadados
+    runs-on: ubuntu-24.04
+    timeout-minutes: 6
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - name: Checkout sem credenciais persistidas
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+
+      - name: Testar extracao e seguranca do parser
+        shell: bash
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Consultar somente cinco paginas publicas
+        shell: bash
+        run: python3 scripts/pilot_camara.py --outdir pilot_output
+
+      - name: Registrar resumo na execucao
+        if: always()
+        shell: bash
+        run: |
+          if [ -f pilot_output/RESUMO.md ]; then
+            cat pilot_output/RESUMO.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Piloto nao gerou manifesto; consultar logs dos testes." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Publicar artefatos pequenos de metadados
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: camara-piloto-metadados
+          path: pilot_output/
+          if-no-files-found: warn
+          retention-days: 7
+          compression-level: 6
