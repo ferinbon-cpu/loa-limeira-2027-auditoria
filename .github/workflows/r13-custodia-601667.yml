@@ -1,0 +1,39 @@
+name: R13 - Custodia de PDF publico 601667
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/r13-custodia-601667.yml"
+      - "scripts/r13_custodia_601667.py"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  recuperar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - name: Checkout sem credenciais persistidas
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - name: Validar alvo e limite offline
+        run: |
+          python3 - <<'PY'
+          import sys
+          sys.path.insert(0,"scripts")
+          from r13_custodia_601667 import URL,ID,HOST,MAX_BYTES
+          assert ID=="601667" and HOST=="consulta.limeira.sp.leg.br"
+          assert URL=="https://consulta.limeira.sp.leg.br/arquivo?Id=601667"
+          assert MAX_BYTES==8_000_000
+          print("R13_GATES_PASS")
+          PY
+      - name: Capturar PDF publico integral e calcular hash
+        run: python3 scripts/r13_custodia_601667.py r13_output
+      - name: Publicar apenas artefato efemero de custodia
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: r13-original-publico-601667
+          path: r13_output/
+          if-no-files-found: error
+          retention-days: 1
