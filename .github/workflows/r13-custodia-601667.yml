@@ -25,7 +25,7 @@ jobs:
           from r13_custodia_601667 import URL,ID,HOST,MAX_BYTES
           assert ID=="601667" and HOST=="consulta.limeira.sp.leg.br"
           assert URL=="https://consulta.limeira.sp.leg.br/arquivo?Id=601667"
-          assert MAX_BYTES==8_000_000
+          assert MAX_BYTES==64_000_000
           print("R13_GATES_PASS")
           PY
       - name: Capturar PDF publico integral e calcular hash
