@@ -1,0 +1,43 @@
+name: R11 - Custodia PDF publico 602298
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/r11-custodia-602298.yml"
+      - "scripts/r11_custodia_602298.py"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: r11-custodia-602298
+  cancel-in-progress: false
+jobs:
+  custodia:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 6
+    steps:
+      - name: Checkout sem credenciais persistidas
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - name: Conferir parametros estritos do arquivo
+        run: |
+          python3 - <<'PY'
+          import sys
+          sys.path.insert(0,"scripts")
+          from r11_custodia_602298 import HOST,ID,URL,EXPECTED_BYTES,EXPECTED_SHA256,MAX_BYTES
+          assert URL=="https://consulta.limeira.sp.leg.br/arquivo?Id=602298"
+          assert HOST=="consulta.limeira.sp.leg.br" and ID=="602298"
+          assert 0<EXPECTED_BYTES<MAX_BYTES<2_000_000
+          assert len(EXPECTED_SHA256)==64
+          print("R11_OFFLINE_GATES_PASS")
+          PY
+      - name: Capturar um unico PDF com integridade verificada
+        run: python3 scripts/r11_custodia_602298.py r11_output
+      - name: Publicar custodia temporaria sem commit
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: r11-original-publico-602298
+          path: r11_output/
+          if-no-files-found: error
+          retention-days: 1
