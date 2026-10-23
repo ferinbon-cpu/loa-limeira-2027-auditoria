@@ -1,0 +1,34 @@
+name: R15 - oito emendas Mariana Calsa valores PDF
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/r15_resumir_8.py"
+      - ".github/workflows/r15-resumo-346-353.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  resumir:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - name: Preparar pypdf puro sem OCR
+        run: |
+          python3 -m venv /tmp/r15venv
+          /tmp/r15venv/bin/pip install --quiet 'pypdf==5.9.0'
+      - name: Extrair somente metadados valores e codigos
+        run: /tmp/r15venv/bin/python scripts/r15_resumir_8.py
+      - name: Resumo controlado
+        if: always()
+        run: |
+          test ! -f data/r15/montantes_8_emendas.json || cat data/r15/montantes_8_emendas.json >> "$GITHUB_STEP_SUMMARY"
+      - name: Artefato apenas com numeros
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: r15-emendas-346-353-resumo
+          path: data/r15/montantes_8_emendas.json
+          retention-days: 7
+          if-no-files-found: warn
