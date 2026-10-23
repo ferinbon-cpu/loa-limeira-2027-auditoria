@@ -1,0 +1,45 @@
+{
+  "data_utc": "2026-10-23T13:51:58+00:00",
+  "paginas_total": 284,
+  "paginas_lidas": 5,
+  "ids_observados": 713,
+  "novos_ids_entre_336": "NAO_AFERIDO",
+  "acessos_realizados": 5,
+  "resultados": [
+    {
+      "pagina": "437627",
+      "status": "HTML_LIDO",
+      "links_arquivo": 703,
+      "ids_novos_observados": 703,
+      "paginas_novas": 279
+    },
+    {
+      "pagina": "439497",
+      "status": "HTML_LIDO",
+      "links_arquivo": 13,
+      "ids_novos_observados": 7,
+      "paginas_novas": 0
+    },
+    {
+      "pagina": "439564",
+      "status": "HTML_LIDO",
+      "links_arquivo": 6,
+      "ids_novos_observados": 0,
+      "paginas_novas": 0
+    },
+    {
+      "pagina": "439673",
+      "status": "HTML_LIDO",
+      "links_arquivo": 6,
+      "ids_novos_observados": 0,
+      "paginas_novas": 0
+    },
+    {
+      "pagina": "439792",
+      "status": "HTML_LIDO",
+      "links_arquivo": 9,
+      "ids_novos_observados": 3,
+      "paginas_novas": 0
+    }
+  ]
+}
