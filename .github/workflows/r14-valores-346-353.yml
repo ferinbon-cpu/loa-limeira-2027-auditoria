@@ -14,8 +14,14 @@ jobs:
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-      - name: Extrair somente montantes e codigos de oito DOCX publicos
-        run: python3 scripts/r14_inspecionar_8.py
+      - name: Preparar leitor PDF sem OCR
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m venv /tmp/r14-venv
+          /tmp/r14-venv/bin/pip install --quiet 'pypdf==5.9.0'
+      - name: Extrair somente montantes e codigos dos dois PDFs novos
+        run: /tmp/r14-venv/bin/python scripts/r14_inspecionar_8.py
       - name: Resumo restrito sem texto integral
         if: always()
         shell: bash
