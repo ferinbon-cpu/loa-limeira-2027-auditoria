@@ -39,16 +39,13 @@ def analyze(number, file_id, category):
         return entry
     if payload.startswith(b"%PDF"):
         entry["formato_recebido"]="PDF"
-        if not shutil.which("pdftotext"):
-            entry["situacao"]="PDF_SEM_CONVERSOR"
-            return entry
-        run=subprocess.run(["pdftotext","-layout","-","-"],input=payload,
-                           stdout=subprocess.PIPE,stderr=subprocess.PIPE,
-                           timeout=25,check=False)
-        if run.returncode:
+        from pypdf import PdfReader
+        reader=PdfReader(io.BytesIO(payload),strict=False)
+        content="\n".join(page.extract_text() or "" for page in reader.pages[:12])
+        entry["paginas_pdf"]=len(reader.pages)
+        if not content.strip():
             entry["situacao"]="PDF_SEM_TEXTO_EXTRAIVEL"
             return entry
-        content=run.stdout.decode("utf-8","replace")
         entry["situacao"]="PDF_TEXTO_LIDO"
         entry["montantes_observados"]=sorted({s.replace("R$","").replace(" ","") for s in CURRENCY.findall(content)})[:30]
         entry["codigos_observados"]=sorted(set(ACTION.findall(content)))[:20]
