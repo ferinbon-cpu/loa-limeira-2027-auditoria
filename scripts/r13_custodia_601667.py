@@ -16,7 +16,7 @@ from urllib.request import Request,HTTPRedirectHandler,build_opener
 HOST="consulta.limeira.sp.leg.br"
 ID="601667"
 URL="https://consulta.limeira.sp.leg.br/arquivo?Id=601667"
-MAX_BYTES=8_000_000
+MAX_BYTES=64_000_000
 
 class SameOrigin(HTTPRedirectHandler):
     def redirect_request(self,req,fp,code,msg,headers,newurl):
@@ -35,6 +35,9 @@ def capture(out):
         if (response.getcode()!=200 or u.scheme!="https" or u.hostname!=HOST or u.port is not None):
             raise ValueError("URL_FINAL_OU_STATUS_INVALIDO")
         mime=response.headers.get("Content-Type","").split(";",1)[0].strip().lower()
+        declared=response.headers.get("Content-Length","")
+        if declared.isdigit() and int(declared)>MAX_BYTES:
+            raise ValueError("CONTENT_LENGTH_ACIMA_64MB")
         content=response.read(MAX_BYTES+1)
     if not (10000<len(content)<=MAX_BYTES and content.startswith(b"%PDF-")):
         raise ValueError(f"NAO_PDF_INTEGRO_DENTRO_LIMITE: bytes={len(content)} mime={mime} assinatura_pdf={content.startswith(bytes.fromhex('255044462d'))}")
