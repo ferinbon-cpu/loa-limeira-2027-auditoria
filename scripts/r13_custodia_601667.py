@@ -37,7 +37,7 @@ def capture(out):
         mime=response.headers.get("Content-Type","").split(";",1)[0].strip().lower()
         content=response.read(MAX_BYTES+1)
     if not (10000<len(content)<=MAX_BYTES and content.startswith(b"%PDF-")):
-        raise ValueError("NAO_PDF_INTEGRO_DENTRO_LIMITE")
+        raise ValueError(f"NAO_PDF_INTEGRO_DENTRO_LIMITE: bytes={len(content)} mime={mime} assinatura_pdf={content.startswith(bytes.fromhex('255044462d'))}")
     digest=hashlib.sha256(content).hexdigest()
     name="PL144_EMENDA_066_ID601667_ORIGINAL.pdf"
     (out/name).write_bytes(content)
@@ -50,5 +50,5 @@ def capture(out):
 if __name__=="__main__":
     try: capture(Path(sys.argv[1] if len(sys.argv)>1 else "r13_output"))
     except (ValueError,HTTPError,URLError,TimeoutError,OSError) as exc:
-        print("R13_FALHOU",type(exc).__name__)
+        print("R13_FALHOU",type(exc).__name__, str(exc) if isinstance(exc,ValueError) else "")
         raise SystemExit(1)
