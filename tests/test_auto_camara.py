@@ -47,6 +47,21 @@ class TestAutonomousCrawler(unittest.TestCase):
         a.page_error(page, "HTTP_403", 403)
         self.assertFalse(a.due(page, datetime.now(timezone.utc)))
 
+    def test_http_429_sets_global_pause_and_stops_requests(self):
+        from urllib.error import HTTPError
+        state = a.new_state()
+        a.add_page(state, "437627", "PL", "official", "PRINCIPAL")
+        a.add_page(state, "439497", "Emenda", "437627", "PILOTO")
+        with patch.object(a, "fetch_public_html", side_effect=HTTPError(
+                "https://consulta.limeira.sp.leg.br/Documentos/Documento/437627",
+                429, "Rate Limit", {}, None)) as mock_get:
+            result = a.crawl(state, limit=2, delay=0)
+            self.assertEqual(mock_get.call_count, 1)
+        self.assertEqual(len(result), 1)
+        self.assertEqual(result[0]["status"], "PAUSA_HTTP_429")
+        self.assertIn("pause_until", state)
+        self.assertEqual(a.crawl(state, limit=2, delay=0), [])
+
     def test_transient_status_has_cooldown(self):
         page = {"status": "PENDENTE", "tentativas": 1, "tipo": "EMENDA", "proxima_tentativa": ""}
         a.page_error(page, "HTTP_502", 502)
