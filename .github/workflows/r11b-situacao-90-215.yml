@@ -1,0 +1,31 @@
+name: R11B - Conferir situacao publica emendas 90 e 215
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/r11b-situacao-90-215.yml"
+      - "scripts/r11b_situacao_90_215.py"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  consultar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - name: Consultar duas paginas sem anexos
+        run: python3 scripts/r11b_situacao_90_215.py
+      - name: Mostrar resumo
+        if: always()
+        run: cat r11b_output/STATUS.md >> "$GITHUB_STEP_SUMMARY" || true
+      - name: Disponibilizar apenas metadados
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: r11b-situacao-90-215
+          path: r11b_output/
+          if-no-files-found: warn
+          retention-days: 7
