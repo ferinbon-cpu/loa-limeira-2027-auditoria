@@ -130,9 +130,12 @@ def due(page, instant):
 def page_error(page, why, status=None):
     page["http"] = status or ""
     page["erro"] = str(why).replace("\n", " ")[:170]
-    if status in (401, 403, 429):
+    if status in (401, 403):
         page["status"] = "BLOQUEADO_401_403_429"
         page["proxima_tentativa"] = ""
+    elif status == 429:
+        page["status"] = "PAUSA_HTTP_429"
+        page["proxima_tentativa"] = (now() + timedelta(hours=24)).isoformat()
     else:
         page["status"] = "FALHA_TEMPORARIA"
         hours = 24 if page["tentativas"] < 3 else 168
@@ -143,6 +146,9 @@ def crawl(state, limit=MAX_PER_RUN, delay=MIN_DELAY):
     if not 1 <= limit <= MAX_PER_RUN:
         raise ValueError("LIMITE_INVALIDO: máximo 25 páginas por execução")
     instant = now()
+    global_pause = state.get("pause_until")
+    if global_pause and datetime.fromisoformat(global_pause) > instant:
+        return []
     priority = {"PRINCIPAL": 0, "PILOTO": 1, "EMENDA": 2, "AUXILIAR": 3}
     queue = sorted((p for p in state["pages"].values() if due(p, instant)),
                    key=lambda p: (priority.get(p["tipo"], 9), p["tentativas"] > 0, int(p["id"])))
@@ -168,6 +174,10 @@ def crawl(state, limit=MAX_PER_RUN, delay=MIN_DELAY):
         except HTTPError as error:
             page_error(page, f"HTTP_{error.code}", error.code)
             outcomes.append({"pagina": page["id"], "status": page["status"], "erro": page["erro"]})
+            if error.code == 429:
+                # Sinal de limitacao do portal: interromper o lote e pausar globalmente.
+                state["pause_until"] = (now() + timedelta(hours=24)).isoformat()
+                break
         except (URLError, TimeoutError, OSError, ValueError) as error:
             page_error(page, type(error).__name__ + ": " + str(error))
             outcomes.append({"pagina": page["id"], "status": page["status"], "erro": page["erro"]})
