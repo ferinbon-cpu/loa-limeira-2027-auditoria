@@ -79,6 +79,17 @@ class TestAutonomousCrawler(unittest.TestCase):
             self.assertEqual(reloaded["runs"], 1)
             self.assertTrue((p / "links_publicos.csv").exists())
 
+    def test_20261023_emendas_mariana_registered_once(self):
+        expected = [str(v) for v in range(439996, 440004)]
+        self.assertEqual([pid for pid, _ in a.NOVAS_EMENDAS_20261023], expected)
+        state = a.new_state()
+        for page_id, label in a.NOVAS_EMENDAS_20261023:
+            self.assertTrue(a.add_page(state, page_id, label, a.MAIN_ID, "EMENDA"))
+        for page_id, label in a.NOVAS_EMENDAS_20261023:
+            self.assertFalse(a.add_page(state, page_id, label, a.MAIN_ID, "EMENDA"))
+        self.assertEqual(len(state["pages"]), 8)
+        self.assertTrue(all(p["status"] == "PENDENTE" for p in state["pages"].values()))
+
     def test_maximum_bounded(self):
         with self.assertRaises(ValueError):
             a.crawl(a.new_state(), 26, delay=0)
