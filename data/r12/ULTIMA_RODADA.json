@@ -1,84 +1,84 @@
 {
-  "corte_utc": "2026-10-23T16:39:06+00:00",
+  "corte_utc": "2026-10-23T23:54:22+00:00",
   "consultados": 15,
   "estados": {
-    "ARQUIVO_ASSINATURA": 1,
-    "HTML_NAO_ARQUIVO": 14,
-    "PENDENTE": 320
+    "ARQUIVO_ASSINATURA": 11,
+    "HTML_NAO_ARQUIVO": 19,
+    "PENDENTE": 305
   },
   "resultados": [
     {
-      "id": "601667",
+      "id": "601973",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "601783",
+      "id": "601975",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "601977",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "601998",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602021",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602047",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602049",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602050",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602052",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602054",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602059",
       "situacao": "HTML_NAO_ARQUIVO",
       "http": 200
     },
     {
-      "id": "601784",
+      "id": "602061",
       "situacao": "HTML_NAO_ARQUIVO",
       "http": 200
     },
     {
-      "id": "601786",
+      "id": "602063",
       "situacao": "HTML_NAO_ARQUIVO",
       "http": 200
     },
     {
-      "id": "601790",
+      "id": "602064",
       "situacao": "HTML_NAO_ARQUIVO",
       "http": 200
     },
     {
-      "id": "601799",
-      "situacao": "HTML_NAO_ARQUIVO",
-      "http": 200
-    },
-    {
-      "id": "601800",
-      "situacao": "HTML_NAO_ARQUIVO",
-      "http": 200
-    },
-    {
-      "id": "601802",
-      "situacao": "HTML_NAO_ARQUIVO",
-      "http": 200
-    },
-    {
-      "id": "601805",
-      "situacao": "HTML_NAO_ARQUIVO",
-      "http": 200
-    },
-    {
-      "id": "601807",
-      "situacao": "HTML_NAO_ARQUIVO",
-      "http": 200
-    },
-    {
-      "id": "601808",
-      "situacao": "HTML_NAO_ARQUIVO",
-      "http": 200
-    },
-    {
-      "id": "601810",
-      "situacao": "HTML_NAO_ARQUIVO",
-      "http": 200
-    },
-    {
-      "id": "601812",
-      "situacao": "HTML_NAO_ARQUIVO",
-      "http": 200
-    },
-    {
-      "id": "601813",
-      "situacao": "HTML_NAO_ARQUIVO",
-      "http": 200
-    },
-    {
-      "id": "601972",
+      "id": "602065",
       "situacao": "HTML_NAO_ARQUIVO",
       "http": 200
     }
