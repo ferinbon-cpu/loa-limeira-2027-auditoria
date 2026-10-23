@@ -16,6 +16,19 @@ from urllib.parse import urlparse
 from pilot_camara import Anchors, HOST, PAGES, classify_observed_url, fetch_public_html
 
 MAIN_ID = "437627"
+# Emendas registradas em 23/10/2026, observadas na listagem publica da Camara.
+# Apenas metadados/URLs: paginas devem ser verificadas pelo coletor antes
+# de qualquer afirmacao sobre anexos, valores, admissibilidade ou tramitacao.
+NOVAS_EMENDAS_20261023 = (
+    ("439996", "Emenda Nº 346 — Mariana Silva Calsa — APAE"),
+    ("439997", "Emenda Nº 347 — Mariana Silva Calsa — ARIL"),
+    ("439998", "Emenda Nº 348 — Mariana Silva Calsa — CAMPL"),
+    ("439999", "Emenda Nº 349 — Mariana Silva Calsa — FT RAMATIS"),
+    ("440000", "Emenda Nº 350 — Mariana Silva Calsa — SANTA CASA"),
+    ("440001", "Emenda Nº 351 — Mariana Silva Calsa — EMEC"),
+    ("440002", "Emenda Nº 352 — Mariana Silva Calsa — PLAYGROUND"),
+    ("440003", "Emenda Nº 353 — Mariana Silva Calsa — MISS E MISTER"),
+)
 MAX_QUEUE = 360
 MAX_PER_RUN = 25
 MIN_DELAY = 1.5
@@ -242,6 +255,8 @@ def main():
     for label, url in PAGES[1:]:
         page_id = urlparse(url).path.rsplit("/", 1)[-1]
         add_page(state, page_id, label, MAIN_ID, "PILOTO")
+    for page_id, label in NOVAS_EMENDAS_20261023:
+        add_page(state, page_id, label, MAIN_ID, "EMENDA")
     outcomes = crawl(state, opts.limit)
     pages, files, success = publish(state, destination, outcomes)
     print(json.dumps({"paginas": pages, "arquivos_observados": files,
