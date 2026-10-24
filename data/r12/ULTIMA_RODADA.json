@@ -1,85 +1,85 @@
 {
-  "corte_utc": "2026-10-23T23:54:22+00:00",
+  "corte_utc": "2026-10-24T08:17:26+00:00",
   "consultados": 15,
   "estados": {
-    "ARQUIVO_ASSINATURA": 11,
-    "HTML_NAO_ARQUIVO": 19,
-    "PENDENTE": 305
+    "ARQUIVO_ASSINATURA": 25,
+    "HTML_NAO_ARQUIVO": 20,
+    "PENDENTE": 290
   },
   "resultados": [
     {
-      "id": "601973",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "601975",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "601977",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "601998",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "602021",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "602047",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "602049",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "602050",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "602052",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "602054",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "602059",
+      "id": "602067",
       "situacao": "HTML_NAO_ARQUIVO",
       "http": 200
     },
     {
-      "id": "602061",
-      "situacao": "HTML_NAO_ARQUIVO",
+      "id": "602077",
+      "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602063",
-      "situacao": "HTML_NAO_ARQUIVO",
+      "id": "602078",
+      "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602064",
-      "situacao": "HTML_NAO_ARQUIVO",
+      "id": "602079",
+      "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602065",
-      "situacao": "HTML_NAO_ARQUIVO",
+      "id": "602081",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602084",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602092",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602093",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602094",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602095",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602127",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602128",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602134",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602135",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602137",
+      "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     }
   ]
