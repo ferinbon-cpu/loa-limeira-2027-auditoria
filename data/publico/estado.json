@@ -7933,6 +7933,32 @@
       "rotulo_publico": "PRE PLANO DE TRABALHO MARCIO ESTACIONAMENTO ORTOPEDIA",
       "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=602351"
     },
+    "602352": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "437627",
+        "439710"
+      ],
+      "id": "602352",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-10-24T17:28:55+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "19 - Sec. Cultura - Evento de Arte e Cultura",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=602352"
+    },
+    "602353": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "437627",
+        "439710"
+      ],
+      "id": "602353",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-10-24T17:28:55+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "Arquivo 1",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=602353"
+    },
     "602354": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
@@ -12714,6 +12740,18 @@
       "rotulo_publico": "Emendas Impositivas (SAUDE-HUMANITÁRIA)",
       "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=602791"
     },
+    "602792": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "437627"
+      ],
+      "id": "602792",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-10-24T17:28:55+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "Declaracao_inexistencia_vinculos_nepotismo_conflito_interesses",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=602792"
+    },
     "602793": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
@@ -16119,6 +16157,18 @@
       "rotulo_publico": "Arquivo 1",
       "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=603128"
     },
+    "603131": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "437627"
+      ],
+      "id": "603131",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-10-24T17:28:55+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "01 - Emenda Impositiva ANEL - OSCs",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=603131"
+    },
     "603132": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
@@ -16131,6 +16181,18 @@
       "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
       "rotulo_publico": "01 - Emenda Impositiva ANEL - OSCs",
       "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=603132"
+    },
+    "603133": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "437627"
+      ],
+      "id": "603133",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-10-24T17:28:55+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "01 - Emendas Impositiva Nosso Clube - OSCs",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=603133"
     },
     "603134": {
       "e_novo_dentre_336": "NAO_AFERIDO",
@@ -17332,7 +17394,8 @@
     "603325": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "439996"
+        "439996",
+        "437627"
       ],
       "id": "603325",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17344,7 +17407,8 @@
     "603326": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "439996"
+        "439996",
+        "437627"
       ],
       "id": "603326",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17356,7 +17420,8 @@
     "603327": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "439996"
+        "439996",
+        "437627"
       ],
       "id": "603327",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17404,7 +17469,8 @@
     "603331": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "439997"
+        "439997",
+        "437627"
       ],
       "id": "603331",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17416,7 +17482,8 @@
     "603332": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "439997"
+        "439997",
+        "437627"
       ],
       "id": "603332",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17428,7 +17495,8 @@
     "603333": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "439997"
+        "439997",
+        "437627"
       ],
       "id": "603333",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17500,7 +17568,8 @@
     "603339": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "439998"
+        "439998",
+        "437627"
       ],
       "id": "603339",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17512,7 +17581,8 @@
     "603340": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "439998"
+        "439998",
+        "437627"
       ],
       "id": "603340",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17524,7 +17594,8 @@
     "603341": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "439998"
+        "439998",
+        "437627"
       ],
       "id": "603341",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17572,7 +17643,8 @@
     "603345": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "439999"
+        "439999",
+        "437627"
       ],
       "id": "603345",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17584,7 +17656,8 @@
     "603346": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "439999"
+        "439999",
+        "437627"
       ],
       "id": "603346",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17596,7 +17669,8 @@
     "603347": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "439999"
+        "439999",
+        "437627"
       ],
       "id": "603347",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17644,7 +17718,8 @@
     "603351": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "440000"
+        "440000",
+        "437627"
       ],
       "id": "603351",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17656,7 +17731,8 @@
     "603352": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "440000"
+        "440000",
+        "437627"
       ],
       "id": "603352",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17668,7 +17744,8 @@
     "603353": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "440000"
+        "440000",
+        "437627"
       ],
       "id": "603353",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17728,7 +17805,8 @@
     "603361": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "440001"
+        "440001",
+        "437627"
       ],
       "id": "603361",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17740,7 +17818,8 @@
     "603362": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "440001"
+        "440001",
+        "437627"
       ],
       "id": "603362",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17752,7 +17831,8 @@
     "603363": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "440002"
+        "440002",
+        "437627"
       ],
       "id": "603363",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17764,7 +17844,8 @@
     "603364": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "440002"
+        "440002",
+        "437627"
       ],
       "id": "603364",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17776,7 +17857,8 @@
     "603365": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "440003"
+        "440003",
+        "437627"
       ],
       "id": "603365",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17788,7 +17870,8 @@
     "603366": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "440003"
+        "440003",
+        "437627"
       ],
       "id": "603366",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -17801,18 +17884,18 @@
   "pages": {
     "437627": {
       "erro": "",
-      "html_bytes": 411271,
-      "html_sha256": "f29f0488f480731dc7b46eaedc103138b01d0776e98131c0dd16d3106ac7c844",
+      "html_bytes": 422884,
+      "html_sha256": "17c4bc6e1e3bbcc26d10a1df64606bd3dc05ea76982d96dd3f21ce13e94586f6",
       "http": 200,
       "id": "437627",
-      "links_arquivo": 703,
+      "links_arquivo": 726,
       "origem": "processo oficial",
       "proxima_tentativa": "",
       "rotulo": "PL nº 144/2026",
       "status": "HTML_LIDO",
-      "tentativas": 1,
+      "tentativas": 2,
       "tipo": "PRINCIPAL",
-      "ultima_consulta": "2026-10-23T13:51:44+00:00",
+      "ultima_consulta": "2026-10-24T17:28:52+00:00",
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/437627"
     },
     "439068": {
@@ -20438,6 +20521,22 @@
       "tipo": "EMENDA",
       "ultima_consulta": "2026-10-23T14:14:47+00:00",
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/439709"
+    },
+    "439710": {
+      "erro": "",
+      "html_bytes": 26117,
+      "html_sha256": "cd46e6bfc94b208154ce49504eb73c5be4da2c096273c9eead9c0de33da82ae6",
+      "http": 200,
+      "id": "439710",
+      "links_arquivo": 5,
+      "origem": "437627",
+      "proxima_tentativa": "",
+      "rotulo": "Emenda Nº 187 ao Projeto de Lei Nº 144/2026",
+      "status": "HTML_LIDO",
+      "tentativas": 1,
+      "tipo": "EMENDA",
+      "ultima_consulta": "2026-10-24T17:28:55+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/439710"
     },
     "439711": {
       "erro": "",
@@ -23432,7 +23531,7 @@
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/440003"
     }
   },
-  "runs": 33,
+  "runs": 36,
   "schema": 1,
-  "updated_utc": "2026-10-24T12:44:18+00:00"
+  "updated_utc": "2026-10-24T17:28:56+00:00"
 }
