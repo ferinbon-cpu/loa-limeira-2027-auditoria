@@ -1,9 +1,9 @@
 # Coleta automática pública — PL 144/2026
 
-Data (UTC): 2026-10-25T13:13:25+00:00
+Data (UTC): 2026-10-25T17:40:56+00:00
 
 **Páginas indexadas:** 353
-**Páginas lidas:** 353
+**Páginas lidas:** 352
 **IDs de arquivos explicitamente observados:** 1402
 **Novos IDs dos 336 pendentes do R04: NÃO AFERIDO** — exige cruzamento com a custódia SME.
 **Downloads de PDF/DOCX:** 0. **Autenticação/bypass:** nenhum.

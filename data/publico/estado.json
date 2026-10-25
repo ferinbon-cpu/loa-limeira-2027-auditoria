@@ -17883,19 +17883,19 @@
   },
   "pages": {
     "437627": {
-      "erro": "",
+      "erro": "TimeoutError: The read operation timed out",
       "html_bytes": 422884,
       "html_sha256": "17c4bc6e1e3bbcc26d10a1df64606bd3dc05ea76982d96dd3f21ce13e94586f6",
-      "http": 200,
+      "http": "",
       "id": "437627",
       "links_arquivo": 726,
       "origem": "processo oficial",
-      "proxima_tentativa": "",
+      "proxima_tentativa": "2026-11-01T17:40:56.800329+00:00",
       "rotulo": "PL nº 144/2026",
-      "status": "HTML_LIDO",
-      "tentativas": 2,
+      "status": "FALHA_TEMPORARIA",
+      "tentativas": 3,
       "tipo": "PRINCIPAL",
-      "ultima_consulta": "2026-10-24T17:28:52+00:00",
+      "ultima_consulta": "2026-10-25T17:40:41+00:00",
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/437627"
     },
     "439068": {
@@ -23531,7 +23531,7 @@
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/440003"
     }
   },
-  "runs": 39,
+  "runs": 41,
   "schema": 1,
-  "updated_utc": "2026-10-25T13:13:25+00:00"
+  "updated_utc": "2026-10-25T17:40:56+00:00"
 }
