@@ -1,86 +1,87 @@
 {
-  "corte_utc": "2026-10-25T18:29:20+00:00",
+  "corte_utc": "2026-10-25T23:24:05+00:00",
   "consultados": 15,
   "estados": {
     "ARQUIVO_ASSINATURA": 115,
     "HTML_NAO_ARQUIVO": 20,
-    "PENDENTE": 200
+    "FALHA_TEMPORARIA": 15,
+    "PENDENTE": 185
   },
   "resultados": [
     {
-      "id": "602379",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
+      "id": "602406",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": null
     },
     {
-      "id": "602382",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
+      "id": "602407",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
     },
     {
-      "id": "602384",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
+      "id": "602408",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
     },
     {
-      "id": "602388",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
+      "id": "602409",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
     },
     {
-      "id": "602389",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
+      "id": "602418",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
     },
     {
-      "id": "602391",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
+      "id": "602419",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": null
     },
     {
-      "id": "602393",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
+      "id": "602420",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": null
     },
     {
-      "id": "602394",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
+      "id": "602421",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
     },
     {
-      "id": "602395",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
+      "id": "602422",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
     },
     {
-      "id": "602396",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
+      "id": "602424",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
     },
     {
-      "id": "602397",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
+      "id": "602428",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
     },
     {
-      "id": "602398",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
+      "id": "602436",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
     },
     {
-      "id": "602400",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
+      "id": "602440",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
     },
     {
-      "id": "602402",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
+      "id": "602441",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
     },
     {
-      "id": "602405",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
+      "id": "602445",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": null
     }
   ]
 }
