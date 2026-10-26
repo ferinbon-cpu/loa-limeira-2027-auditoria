@@ -1,87 +1,87 @@
 {
-  "corte_utc": "2026-10-25T23:24:05+00:00",
+  "corte_utc": "2026-10-26T09:12:37+00:00",
   "consultados": 15,
   "estados": {
     "ARQUIVO_ASSINATURA": 115,
     "HTML_NAO_ARQUIVO": 20,
-    "FALHA_TEMPORARIA": 15,
-    "PENDENTE": 185
+    "FALHA_TEMPORARIA": 30,
+    "PENDENTE": 170
   },
   "resultados": [
     {
-      "id": "602406",
+      "id": "602464",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
+    },
+    {
+      "id": "602465",
       "situacao": "FALHA_TEMPORARIA",
       "http": null
     },
     {
-      "id": "602407",
+      "id": "602467",
       "situacao": "FALHA_TEMPORARIA",
       "http": 500
     },
     {
-      "id": "602408",
+      "id": "602469",
       "situacao": "FALHA_TEMPORARIA",
       "http": 500
     },
     {
-      "id": "602409",
+      "id": "602470",
       "situacao": "FALHA_TEMPORARIA",
       "http": 500
     },
     {
-      "id": "602418",
+      "id": "602506",
       "situacao": "FALHA_TEMPORARIA",
       "http": 500
     },
     {
-      "id": "602419",
+      "id": "602524",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
+    },
+    {
+      "id": "602544",
       "situacao": "FALHA_TEMPORARIA",
       "http": null
     },
     {
-      "id": "602420",
+      "id": "602548",
       "situacao": "FALHA_TEMPORARIA",
       "http": null
     },
     {
-      "id": "602421",
-      "situacao": "FALHA_TEMPORARIA",
-      "http": 500
-    },
-    {
-      "id": "602422",
-      "situacao": "FALHA_TEMPORARIA",
-      "http": 500
-    },
-    {
-      "id": "602424",
-      "situacao": "FALHA_TEMPORARIA",
-      "http": 500
-    },
-    {
-      "id": "602428",
-      "situacao": "FALHA_TEMPORARIA",
-      "http": 500
-    },
-    {
-      "id": "602436",
-      "situacao": "FALHA_TEMPORARIA",
-      "http": 500
-    },
-    {
-      "id": "602440",
-      "situacao": "FALHA_TEMPORARIA",
-      "http": 500
-    },
-    {
-      "id": "602441",
-      "situacao": "FALHA_TEMPORARIA",
-      "http": 500
-    },
-    {
-      "id": "602445",
+      "id": "602549",
       "situacao": "FALHA_TEMPORARIA",
       "http": null
+    },
+    {
+      "id": "602552",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": null
+    },
+    {
+      "id": "602558",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
+    },
+    {
+      "id": "602561",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
+    },
+    {
+      "id": "602566",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
+    },
+    {
+      "id": "602570",
+      "situacao": "FALHA_TEMPORARIA",
+      "http": 500
     }
   ]
 }
