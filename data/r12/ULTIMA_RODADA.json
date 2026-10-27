@@ -1,86 +1,85 @@
 {
-  "corte_utc": "2026-10-27T09:11:58+00:00",
+  "corte_utc": "2026-10-27T15:27:40+00:00",
   "consultados": 15,
   "estados": {
-    "ARQUIVO_ASSINATURA": 156,
-    "HTML_NAO_ARQUIVO": 24,
-    "FALHA_TEMPORARIA": 7,
-    "PENDENTE": 148
+    "ARQUIVO_ASSINATURA": 170,
+    "HTML_NAO_ARQUIVO": 25,
+    "PENDENTE": 140
   },
   "resultados": [
     {
-      "id": "602464",
+      "id": "602548",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602465",
+      "id": "602549",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602467",
+      "id": "602552",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602469",
+      "id": "602558",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602470",
+      "id": "602561",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602506",
+      "id": "602566",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602524",
+      "id": "602570",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602544",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "602642",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "602647",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "602651",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "602654",
+      "id": "602658",
       "situacao": "HTML_NAO_ARQUIVO",
       "http": 200
     },
     {
-      "id": "602655",
-      "situacao": "HTML_NAO_ARQUIVO",
+      "id": "602669",
+      "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602656",
-      "situacao": "HTML_NAO_ARQUIVO",
+      "id": "602671",
+      "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602657",
-      "situacao": "HTML_NAO_ARQUIVO",
+      "id": "602672",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602673",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602674",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602675",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602688",
+      "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     }
   ]
