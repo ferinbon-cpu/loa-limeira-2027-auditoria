@@ -1,84 +1,84 @@
 {
-  "corte_utc": "2026-10-28T09:53:19+00:00",
+  "corte_utc": "2026-10-28T20:24:43+00:00",
   "consultados": 15,
   "estados": {
-    "ARQUIVO_ASSINATURA": 198,
+    "ARQUIVO_ASSINATURA": 213,
     "HTML_NAO_ARQUIVO": 27,
-    "PENDENTE": 110
+    "PENDENTE": 95
   },
   "resultados": [
     {
-      "id": "602782",
+      "id": "602835",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602785",
+      "id": "602836",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602788",
+      "id": "602837",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602790",
+      "id": "602840",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602793",
+      "id": "602841",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602795",
+      "id": "602847",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602808",
+      "id": "602848",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602809",
+      "id": "602850",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602810",
-      "situacao": "HTML_NAO_ARQUIVO",
-      "http": 200
-    },
-    {
-      "id": "602811",
-      "situacao": "HTML_NAO_ARQUIVO",
-      "http": 200
-    },
-    {
-      "id": "602814",
+      "id": "602854",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602820",
+      "id": "602857",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602821",
+      "id": "602858",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602827",
+      "id": "602859",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602834",
+      "id": "602887",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602888",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "http": 200
+    },
+    {
+      "id": "602889",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     }
