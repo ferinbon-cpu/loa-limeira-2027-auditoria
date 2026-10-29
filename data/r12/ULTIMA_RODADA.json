@@ -1,84 +1,84 @@
 {
-  "corte_utc": "2026-10-28T20:24:43+00:00",
+  "corte_utc": "2026-10-29T01:05:03+00:00",
   "consultados": 15,
   "estados": {
-    "ARQUIVO_ASSINATURA": 213,
+    "ARQUIVO_ASSINATURA": 228,
     "HTML_NAO_ARQUIVO": 27,
-    "PENDENTE": 95
+    "PENDENTE": 80
   },
   "resultados": [
     {
-      "id": "602835",
+      "id": "602891",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602836",
+      "id": "602893",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602837",
+      "id": "602894",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602840",
+      "id": "602910",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602841",
+      "id": "602911",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602847",
+      "id": "602913",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602848",
+      "id": "602915",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602850",
+      "id": "602916",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602854",
+      "id": "602917",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602857",
+      "id": "602918",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602858",
+      "id": "602919",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602859",
+      "id": "602920",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602887",
+      "id": "602922",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602888",
+      "id": "602924",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     },
     {
-      "id": "602889",
+      "id": "602925",
       "situacao": "ARQUIVO_ASSINATURA",
       "http": 200
     }
