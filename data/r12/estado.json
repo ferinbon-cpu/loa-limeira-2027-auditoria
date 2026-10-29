@@ -1,5 +1,5 @@
 {
-  "atualizado_utc": "2026-10-29T01:05:03+00:00",
+  "atualizado_utc": "2026-10-29T10:14:11+00:00",
   "criado_utc": "2026-10-23T16:38:00+00:00",
   "ids": {
     "601667": {
@@ -2838,64 +2838,169 @@
       "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=602925"
     },
     "602926": {
-      "situacao": "PENDENTE",
-      "tentativas": 0
+      "assinatura": "ZIP_OOXML_POSSIVEL",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-29T10:13:34+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=602926"
     },
     "602927": {
-      "situacao": "PENDENTE",
-      "tentativas": 0
+      "assinatura": "ZIP_OOXML_POSSIVEL",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-29T10:13:37+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=602927"
     },
     "602930": {
-      "situacao": "PENDENTE",
-      "tentativas": 0
+      "assinatura": "PDF_ASSINATURA",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "application/pdf",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-29T10:13:40+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=602930"
     },
     "602931": {
-      "situacao": "PENDENTE",
-      "tentativas": 0
+      "assinatura": "PDF_ASSINATURA",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "application/pdf",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-29T10:13:43+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=602931"
     },
     "602934": {
-      "situacao": "PENDENTE",
-      "tentativas": 0
+      "assinatura": "PDF_ASSINATURA",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "application/pdf",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-29T10:13:45+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=602934"
     },
     "602936": {
-      "situacao": "PENDENTE",
-      "tentativas": 0
+      "assinatura": "PDF_ASSINATURA",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "application/pdf",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-29T10:13:48+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=602936"
     },
     "602937": {
-      "situacao": "PENDENTE",
-      "tentativas": 0
+      "assinatura": "PDF_ASSINATURA",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "application/pdf",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-29T10:13:50+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=602937"
     },
     "602953": {
-      "situacao": "PENDENTE",
-      "tentativas": 0
+      "assinatura": "PDF_ASSINATURA",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "application/pdf",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-29T10:13:53+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=602953"
     },
     "602964": {
-      "situacao": "PENDENTE",
-      "tentativas": 0
+      "assinatura": "PDF_ASSINATURA",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "application/pdf",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-29T10:13:55+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=602964"
     },
     "602965": {
-      "situacao": "PENDENTE",
-      "tentativas": 0
+      "assinatura": "PDF_ASSINATURA",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "application/pdf",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-29T10:13:58+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=602965"
     },
     "602967": {
-      "situacao": "PENDENTE",
-      "tentativas": 0
+      "assinatura": "PDF_ASSINATURA",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "application/pdf",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-29T10:14:01+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=602967"
     },
     "602969": {
-      "situacao": "PENDENTE",
-      "tentativas": 0
+      "assinatura": "PDF_ASSINATURA",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "application/pdf",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-29T10:14:03+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=602969"
     },
     "602970": {
-      "situacao": "PENDENTE",
-      "tentativas": 0
+      "assinatura": "PDF_ASSINATURA",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "application/pdf",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-29T10:14:06+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=602970"
     },
     "602986": {
-      "situacao": "PENDENTE",
-      "tentativas": 0
+      "assinatura": "ZIP_OOXML_POSSIVEL",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-29T10:14:08+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=602986"
     },
     "602994": {
-      "situacao": "PENDENTE",
-      "tentativas": 0
+      "assinatura": "PDF_ASSINATURA",
+      "bytes_amostrados": 8192,
+      "erro": "",
+      "mime_observado": "application/pdf",
+      "situacao": "ARQUIVO_ASSINATURA",
+      "status_http": 200,
+      "tentativas": 1,
+      "ultima_tentativa_utc": "2026-10-29T10:14:11+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/arquivo?Id=602994"
     },
     "602995": {
       "situacao": "PENDENTE",
