@@ -1,35 +1,9 @@
 {
-  "corte_utc": "2026-10-31T00:54:08+00:00",
-  "consultados": 5,
+  "corte_utc": "2026-10-31T09:49:30+00:00",
+  "consultados": 0,
   "estados": {
     "ARQUIVO_ASSINATURA": 308,
     "HTML_NAO_ARQUIVO": 27
   },
-  "resultados": [
-    {
-      "id": "603119",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "603120",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "603122",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "603126",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    },
-    {
-      "id": "603164",
-      "situacao": "ARQUIVO_ASSINATURA",
-      "http": 200
-    }
-  ]
+  "resultados": []
 }
