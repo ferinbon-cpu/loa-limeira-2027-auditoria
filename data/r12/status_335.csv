@@ -329,8 +329,8 @@
 603115,ARQUIVO_ASSINATURA,1,200,application/pdf,PDF_ASSINATURA,8192,2026-10-30T19:58:17+00:00,,,https://consulta.limeira.sp.leg.br/arquivo?Id=603115
 603117,ARQUIVO_ASSINATURA,1,200,application/pdf,PDF_ASSINATURA,8192,2026-10-30T19:58:20+00:00,,,https://consulta.limeira.sp.leg.br/arquivo?Id=603117
 603118,ARQUIVO_ASSINATURA,1,200,application/pdf,PDF_ASSINATURA,8192,2026-10-30T19:58:22+00:00,,,https://consulta.limeira.sp.leg.br/arquivo?Id=603118
-603119,PENDENTE,0,,,,,,,,
-603120,PENDENTE,0,,,,,,,,
-603122,PENDENTE,0,,,,,,,,
-603126,PENDENTE,0,,,,,,,,
-603164,PENDENTE,0,,,,,,,,
+603119,ARQUIVO_ASSINATURA,1,200,application/pdf,PDF_ASSINATURA,8192,2026-10-31T00:53:58+00:00,,,https://consulta.limeira.sp.leg.br/arquivo?Id=603119
+603120,ARQUIVO_ASSINATURA,1,200,application/pdf,PDF_ASSINATURA,8192,2026-10-31T00:54:01+00:00,,,https://consulta.limeira.sp.leg.br/arquivo?Id=603120
+603122,ARQUIVO_ASSINATURA,1,200,application/pdf,PDF_ASSINATURA,8192,2026-10-31T00:54:03+00:00,,,https://consulta.limeira.sp.leg.br/arquivo?Id=603122
+603126,ARQUIVO_ASSINATURA,1,200,application/pdf,PDF_ASSINATURA,8192,2026-10-31T00:54:06+00:00,,,https://consulta.limeira.sp.leg.br/arquivo?Id=603126
+603164,ARQUIVO_ASSINATURA,1,200,application/vnd.openxmlformats-officedocument.wordprocessingml.document,ZIP_OOXML_POSSIVEL,8192,2026-10-31T00:54:08+00:00,,,https://consulta.limeira.sp.leg.br/arquivo?Id=603164
