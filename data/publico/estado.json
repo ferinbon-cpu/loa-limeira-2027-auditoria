@@ -17879,23 +17879,98 @@
       "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
       "rotulo_publico": "Arquivo 1",
       "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=603366"
+    },
+    "604808": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "437627",
+        "440747"
+      ],
+      "id": "604808",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-11-01T18:58:10+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "EMENDA SANTA CASA",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=604808"
+    },
+    "604810": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "437627",
+        "440747"
+      ],
+      "id": "604810",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-11-01T18:58:10+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "Declaracao_institucional_inexistencia_vinculos_nepotismo_conflito_interesses HELDER DO TAX assinadoI",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=604810"
+    },
+    "604811": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "437627",
+        "440747"
+      ],
+      "id": "604811",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-11-01T18:58:10+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "Estatuto Social 2026",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=604811"
+    },
+    "604812": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "440747"
+      ],
+      "id": "604812",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-11-01T18:58:11+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "Plano de Trabalho emenda impositiva Helder taxi assinado",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=604812"
+    },
+    "604813": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "440747"
+      ],
+      "id": "604813",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-11-01T18:58:11+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "relação atualizada dos quadros diretivos",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=604813"
+    },
+    "604819": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "440747"
+      ],
+      "id": "604819",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-11-01T18:58:11+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "siscam_emenda_n_165_arquivo_1m3chqjqs",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=604819"
     }
   },
   "pages": {
     "437627": {
-      "erro": "TimeoutError: The read operation timed out",
-      "html_bytes": 422884,
-      "html_sha256": "17c4bc6e1e3bbcc26d10a1df64606bd3dc05ea76982d96dd3f21ce13e94586f6",
-      "http": "",
+      "erro": "",
+      "html_bytes": 418924,
+      "html_sha256": "dabdfc63a36c73bd5f718293bc2949fa881838bf0c96fb4e987d4c51472c3f85",
+      "http": 200,
       "id": "437627",
-      "links_arquivo": 726,
+      "links_arquivo": 729,
       "origem": "processo oficial",
-      "proxima_tentativa": "2026-11-01T17:40:56.800329+00:00",
+      "proxima_tentativa": "",
       "rotulo": "PL nº 144/2026",
-      "status": "FALHA_TEMPORARIA",
-      "tentativas": 3,
+      "status": "HTML_LIDO",
+      "tentativas": 4,
       "tipo": "PRINCIPAL",
-      "ultima_consulta": "2026-10-25T17:40:41+00:00",
+      "ultima_consulta": "2026-11-01T18:58:06+00:00",
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/437627"
     },
     "439068": {
@@ -23529,9 +23604,25 @@
       "tipo": "EMENDA",
       "ultima_consulta": "2026-10-23T19:03:40+00:00",
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/440003"
+    },
+    "440747": {
+      "erro": "",
+      "html_bytes": 29137,
+      "html_sha256": "d204fc087db5b9992187888303e9e7d02c1f6b8aad52d7cc36d8df73d2a04ee5",
+      "http": 200,
+      "id": "440747",
+      "links_arquivo": 9,
+      "origem": "437627",
+      "proxima_tentativa": "",
+      "rotulo": "Emenda Nº 165 ao Projeto de Lei Nº 144/2026",
+      "status": "HTML_LIDO",
+      "tentativas": 1,
+      "tipo": "EMENDA",
+      "ultima_consulta": "2026-11-01T18:58:10+00:00",
+      "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/440747"
     }
   },
-  "runs": 61,
+  "runs": 64,
   "schema": 1,
-  "updated_utc": "2026-11-01T09:20:39+00:00"
+  "updated_utc": "2026-11-01T18:58:11+00:00"
 }
