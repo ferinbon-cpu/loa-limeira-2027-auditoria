@@ -1,6 +1,6 @@
 # Coleta automática pública — PL 144/2026
 
-Data (UTC): 2026-11-04T09:23:59+00:00
+Data (UTC): 2026-11-04T20:50:41+00:00
 
 **Páginas indexadas:** 354
 **Páginas lidas:** 354
