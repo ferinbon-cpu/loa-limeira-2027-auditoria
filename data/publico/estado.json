@@ -338,7 +338,8 @@
     "601651": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "439497"
+        "439497",
+        "437627"
       ],
       "id": "601651",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -533,7 +534,8 @@
     "601667": {
       "e_novo_dentre_336": "NAO_AFERIDO",
       "fontes": [
-        "439498"
+        "439498",
+        "437627"
       ],
       "id": "601667",
       "preservado_no_drive": "NAO_AFERIDO",
@@ -541,6 +543,30 @@
       "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
       "rotulo_publico": "Arquivo 1",
       "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=601667"
+    },
+    "601668": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "437627"
+      ],
+      "id": "601668",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-11-07T23:39:31+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "Declaracao_institucional_inexistencia_vinculos_nepotismo_conflito_interesses.docx_assinado",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=601668"
+    },
+    "601669": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "437627"
+      ],
+      "id": "601669",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-11-07T23:39:31+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "Plano_de_Trabalho_2027_-_Emenda_impositiva_Tati_.docx_assinado",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=601669"
     },
     "601670": {
       "e_novo_dentre_336": "NAO_AFERIDO",
@@ -17959,18 +17985,18 @@
   "pages": {
     "437627": {
       "erro": "",
-      "html_bytes": 418924,
-      "html_sha256": "4aa29a72e22aa2e52b151369d485814a9b645d7a7160341b8705e165d4ebab44",
+      "html_bytes": 416910,
+      "html_sha256": "196b3579870bc4cada563e8e1974d419ff20934b511903e1668e7796ce6d20f6",
       "http": 200,
       "id": "437627",
-      "links_arquivo": 729,
+      "links_arquivo": 722,
       "origem": "processo oficial",
       "proxima_tentativa": "",
       "rotulo": "PL nº 144/2026",
       "status": "HTML_LIDO",
-      "tentativas": 8,
+      "tentativas": 9,
       "tipo": "PRINCIPAL",
-      "ultima_consulta": "2026-11-06T20:28:00+00:00",
+      "ultima_consulta": "2026-11-07T23:39:28+00:00",
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/437627"
     },
     "439068": {
@@ -23622,7 +23648,7 @@
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/440747"
     }
   },
-  "runs": 81,
+  "runs": 83,
   "schema": 1,
-  "updated_utc": "2026-11-07T18:49:51+00:00"
+  "updated_utc": "2026-11-07T23:39:32+00:00"
 }
