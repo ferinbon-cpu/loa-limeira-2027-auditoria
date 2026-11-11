@@ -17980,23 +17980,47 @@
       "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
       "rotulo_publico": "siscam_emenda_n_165_arquivo_1m3chqjqs",
       "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=604819"
+    },
+    "607644": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "437627"
+      ],
+      "id": "607644",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-11-11T21:27:14+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "PARECER Processo 5418-2026 PL 144-26 Dispõe sobre LOA - Copia - Copia - Copia - Copia",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=607644"
+    },
+    "607645": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "437627"
+      ],
+      "id": "607645",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-11-11T21:27:14+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "Arquivo 1",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=607645"
     }
   },
   "pages": {
     "437627": {
       "erro": "",
-      "html_bytes": 416910,
-      "html_sha256": "e95ecced4f73a0976cfc53515ff3c8610248ebe83a70f962ff2b889080b542cb",
+      "html_bytes": 418142,
+      "html_sha256": "4074c7c221bd5bb6af259e36899b5fa8b0b24887375ffeb93b64b2b18d89284a",
       "http": 200,
       "id": "437627",
-      "links_arquivo": 722,
+      "links_arquivo": 724,
       "origem": "processo oficial",
       "proxima_tentativa": "",
       "rotulo": "PL nº 144/2026",
       "status": "HTML_LIDO",
-      "tentativas": 11,
+      "tentativas": 12,
       "tipo": "PRINCIPAL",
-      "ultima_consulta": "2026-11-10T09:57:21+00:00",
+      "ultima_consulta": "2026-11-11T21:27:11+00:00",
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/437627"
     },
     "439068": {
@@ -23648,7 +23672,7 @@
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/440747"
     }
   },
-  "runs": 93,
+  "runs": 95,
   "schema": 1,
-  "updated_utc": "2026-11-11T09:30:18+00:00"
+  "updated_utc": "2026-11-11T21:27:14+00:00"
 }
