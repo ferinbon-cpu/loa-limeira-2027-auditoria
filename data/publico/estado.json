@@ -18004,23 +18004,47 @@
       "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
       "rotulo_publico": "Arquivo 1",
       "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=607645"
+    },
+    "608466": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "437627"
+      ],
+      "id": "608466",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-11-12T21:29:31+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "PARECER ELIAS PL + EMENDAS",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=608466"
+    },
+    "608467": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "437627"
+      ],
+      "id": "608467",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-11-12T21:29:31+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "PARECER AO PROJETO DE LEI E EMENDAS - RELATORIA ELIAS",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=608467"
     }
   },
   "pages": {
     "437627": {
       "erro": "",
-      "html_bytes": 418142,
-      "html_sha256": "4074c7c221bd5bb6af259e36899b5fa8b0b24887375ffeb93b64b2b18d89284a",
+      "html_bytes": 419108,
+      "html_sha256": "0e049d42d68dcfaefb016f2fbe3f05075efbf0b7a5adb051ddbba609e90f98ce",
       "http": 200,
       "id": "437627",
-      "links_arquivo": 724,
+      "links_arquivo": 726,
       "origem": "processo oficial",
       "proxima_tentativa": "",
       "rotulo": "PL nº 144/2026",
       "status": "HTML_LIDO",
-      "tentativas": 12,
+      "tentativas": 13,
       "tipo": "PRINCIPAL",
-      "ultima_consulta": "2026-11-11T21:27:11+00:00",
+      "ultima_consulta": "2026-11-12T21:29:28+00:00",
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/437627"
     },
     "439068": {
@@ -23672,7 +23696,7 @@
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/440747"
     }
   },
-  "runs": 96,
+  "runs": 98,
   "schema": 1,
-  "updated_utc": "2026-11-12T09:54:20+00:00"
+  "updated_utc": "2026-11-12T21:29:31+00:00"
 }
