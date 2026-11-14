@@ -1,6 +1,6 @@
 # R12 — Triagem incremental de 335 candidatos públicos
 
-Corte UTC: 2026-11-13T21:27:51+00:00
+Corte UTC: 2026-11-14T10:41:41+00:00
 
 **Amostra máxima por resposta: 8192 bytes.**
 **Nenhum PDF, DOCX ou outro anexo é salvo.**
