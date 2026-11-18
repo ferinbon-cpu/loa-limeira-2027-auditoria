@@ -18028,23 +18028,35 @@
       "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
       "rotulo_publico": "PARECER AO PROJETO DE LEI E EMENDAS - RELATORIA ELIAS",
       "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=608467"
+    },
+    "610683": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "437627"
+      ],
+      "id": "610683",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-11-18T22:01:54+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "DV JUNTADA CIS PL 144-26 - LOA 2027",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=610683"
     }
   },
   "pages": {
     "437627": {
       "erro": "",
-      "html_bytes": 419108,
-      "html_sha256": "9da14a0261b27b2fc384e92fc71896b0dfe50d58a614d949df6f36fc9c602ff8",
+      "html_bytes": 420017,
+      "html_sha256": "6ed324841ba1efcf6b692ab614e75e492207a938c3db281eaf089c70681761f8",
       "http": 200,
       "id": "437627",
-      "links_arquivo": 726,
+      "links_arquivo": 727,
       "origem": "processo oficial",
       "proxima_tentativa": "",
       "rotulo": "PL nº 144/2026",
       "status": "HTML_LIDO",
-      "tentativas": 17,
+      "tentativas": 18,
       "tipo": "PRINCIPAL",
-      "ultima_consulta": "2026-11-17T10:48:18+00:00",
+      "ultima_consulta": "2026-11-18T22:01:50+00:00",
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/437627"
     },
     "439068": {
@@ -23696,7 +23708,7 @@
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/440747"
     }
   },
-  "runs": 115,
+  "runs": 117,
   "schema": 1,
-  "updated_utc": "2026-11-18T10:15:58+00:00"
+  "updated_utc": "2026-11-18T22:01:55+00:00"
 }
