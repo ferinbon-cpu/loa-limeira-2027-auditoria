@@ -18040,23 +18040,35 @@
       "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
       "rotulo_publico": "DV JUNTADA CIS PL 144-26 - LOA 2027",
       "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=610683"
+    },
+    "611712": {
+      "e_novo_dentre_336": "NAO_AFERIDO",
+      "fontes": [
+        "437627"
+      ],
+      "id": "611712",
+      "preservado_no_drive": "NAO_AFERIDO",
+      "primeiro_registro_utc": "2026-11-24T01:42:14+00:00",
+      "prova": "URL_EXPLICITA_NO_HTML_PUBLICO",
+      "rotulo_publico": "Requerimento de Votação de Emendas e Subemendas PL 144-2026 - Bloco",
+      "url_oficial": "https://consulta.limeira.sp.leg.br/arquivo?Id=611712"
     }
   },
   "pages": {
     "437627": {
       "erro": "",
-      "html_bytes": 420495,
-      "html_sha256": "ad04ca9e6fe7baf2bcf9ee5aad64e99877c6fcae7a13ea240ed4a03666b0ab6b",
+      "html_bytes": 421767,
+      "html_sha256": "f14fdfb35928afbf736b110e2c328a28cc3acf23636220e8602b63840348df43",
       "http": 200,
       "id": "437627",
-      "links_arquivo": 727,
+      "links_arquivo": 728,
       "origem": "processo oficial",
       "proxima_tentativa": "",
       "rotulo": "PL nº 144/2026",
       "status": "HTML_LIDO",
-      "tentativas": 21,
+      "tentativas": 22,
       "tipo": "PRINCIPAL",
-      "ultima_consulta": "2026-11-22T20:44:48+00:00",
+      "ultima_consulta": "2026-11-24T01:42:11+00:00",
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/437627"
     },
     "439068": {
@@ -23708,7 +23720,7 @@
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/440747"
     }
   },
-  "runs": 129,
+  "runs": 131,
   "schema": 1,
-  "updated_utc": "2026-11-23T10:51:49+00:00"
+  "updated_utc": "2026-11-24T01:42:14+00:00"
 }
