@@ -18057,8 +18057,8 @@
   "pages": {
     "437627": {
       "erro": "",
-      "html_bytes": 422245,
-      "html_sha256": "ddcf38ca67ce0711913d86374f066eb82373485c208b96db58fe34e8dfb62714",
+      "html_bytes": 424066,
+      "html_sha256": "05db447ac08dcd62bd0f3339a14df331ea4a8b845fb1218dd7556f86b6e177dc",
       "http": 200,
       "id": "437627",
       "links_arquivo": 728,
@@ -18066,9 +18066,9 @@
       "proxima_tentativa": "",
       "rotulo": "PL nº 144/2026",
       "status": "HTML_LIDO",
-      "tentativas": 24,
+      "tentativas": 25,
       "tipo": "PRINCIPAL",
-      "ultima_consulta": "2026-11-26T23:02:11+00:00",
+      "ultima_consulta": "2026-11-28T10:33:12+00:00",
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/437627"
     },
     "439068": {
@@ -23720,7 +23720,7 @@
       "url": "https://consulta.limeira.sp.leg.br/Documentos/Documento/440747"
     }
   },
-  "runs": 141,
+  "runs": 143,
   "schema": 1,
-  "updated_utc": "2026-11-27T22:44:38+00:00"
+  "updated_utc": "2026-11-28T10:33:17+00:00"
 }
